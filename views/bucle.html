@@ -1,0 +1,23 @@
+$def with(datos)
+
+<html>
+    <head>
+        <title>Bucle</title>
+    </head>
+    <body>
+        <table border = 1px solid blue;>
+            <tr b>
+                <td>No</td>
+                <td>Dia</td>
+            </tr>
+            $ a = 0
+            $for fila in datos:
+                <tr>
+                    <td>$a</td>
+                    <td>$fila</td>
+                </tr>
+                $ a += 1
+        </table>
+        <input type="button" value="Atras" onclick="window.location = '/'"/>
+    </body>
+</html>
